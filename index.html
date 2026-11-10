@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerPath - Roadmap Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>CareerPath</h1>
+        <p>Plan your goals. Track your progress. Build your future.</p>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Add a Career Goal</h2>
+
+            <input type="text" id="goalTitle"
+                placeholder="Enter goal (e.g. Web Development)">
+
+            <input type="text" id="taskInput"
+                placeholder="Enter a learning task">
+
+            <button onclick="addGoal()">Add Goal</button>
+        </section>
+
+        <section>
+            <h2>My Career Roadmap</h2>
+            <div id="goalList"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 CareerPath | Your Career Journey Starts Here</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
